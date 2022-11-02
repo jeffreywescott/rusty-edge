@@ -374,6 +374,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a3f87b73ce11b1619a3c6332f45341e0047173771e8b8b73f87bfeefb7b56244"
 
 [[package]]
+name = "rusty-edge"
+version = "0.1.0"
+dependencies = [
+ "cfg-if",
+ "console_error_panic_hook",
+ "serde_json",
+ "worker",
+]
+
+[[package]]
 name = "ryu"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -470,16 +480,6 @@ name = "tinyvec_macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
-
-[[package]]
-name = "todo-worker"
-version = "0.0.0"
-dependencies = [
- "cfg-if",
- "console_error_panic_hook",
- "serde_json",
- "worker",
-]
 
 [[package]]
 name = "uncased"
